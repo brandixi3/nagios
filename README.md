@@ -12,5 +12,10 @@ Start the Docker container as follows,
 
 1. docker run -p 80:80 -t -i brandixi3/nagios /bin/bash
 
-Now you can access Puppet dashboard using , http://server_ip/nagios3/
+Now you can access Nagios dashboard using , http://server_ip/nagios3/
+
+initial credetials are as follows,
+
+Username : ngiosadmin
+Password :
 

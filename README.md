@@ -14,7 +14,7 @@ Start the Docker container as follows,
 
 Now you can access Nagios dashboard using , http://server_ip/nagios3/
 
-initial credetials are as follows,
+Initial credetials are as follows,
 
 Username : ngiosadmin
 Password :

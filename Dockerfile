@@ -18,6 +18,7 @@ RUN apt-get update
 RUN apt-get install -y nagios3 nagios-nrpe-plugin &&\
     apt-get install -y elinks &&\
     apt-get install -y nano &&\
+    apt-get install -y openssh-server &&\
     htpasswd -c /etc/nagios3/htpasswd.users nagiosadmin  
 
 EXPOSE 8080 80 22

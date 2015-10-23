@@ -20,7 +20,7 @@ RUN apt-get install -y nagios3 nagios-nrpe-plugin &&\
     apt-get install -y nano &&\
     htpasswd -c /etc/nagios3/htpasswd.users nagiosadmin  
 
-EXPOSE 8080 80
+EXPOSE 8080 80 22
 
 RUN mv /etc/apache2/apache2.conf /etc/apache2/apache2.conf.backup &&\
     mv /etc/bash.bashrc /etc/bash.bashrc.backup  

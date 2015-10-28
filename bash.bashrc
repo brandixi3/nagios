@@ -69,4 +69,4 @@ fi
 
 /etc/init.d/apache2 start
 /etc/init.d/nagios3 start
-service ssh start
+/etc/init.d/ssh start
